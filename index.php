@@ -2,7 +2,6 @@
 
 require_once 'template/header.php';
 ?>
-<html>
 
     <head>
         <title>Simple Library ddd</title>
@@ -12,6 +11,7 @@ require_once 'template/header.php';
 
     </body>
 
-
-</html>
+<?php
+require_once require_once 'template/footer.php';
+?>
 
