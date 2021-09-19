@@ -1,0 +1,29 @@
+.title{
+    font-size:21px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    margin-right: 30px;
+    font-family: "Sacramento", cursive;
+    animation: blink 10s infinite;
+}
+
+@keyframes blink {
+    0%,
+    8%{
+    color: #111;
+    text-shadow: none;
+
+    }
+    20%,
+    24%,
+    55%,
+    100% {
+        /*     color: #fccaff;
+            text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+              0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #728c9f, 0 0 15px #728c9f, 0 0 20px #728c9f, 0 0 40px #728c9f;
+        color: #c9ddfc;
+    }
+
+}
