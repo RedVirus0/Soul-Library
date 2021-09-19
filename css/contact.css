@@ -1,0 +1,50 @@
+body{
+    background-color: #b2ae92;
+}
+.main{
+    position:  absolute;
+    top : 200px;
+    left: 650px;
+    width: 500px;
+    height:450px;
+    border:2px solid black;
+}
+.info{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    cursor:pointer;
+}
+.info:focus{
+    outline: none;
+}
+input[name="number"] {
+    width: 437px;
+    margin-left: 30px;
+}
+
+input[name="name"]{
+    margin-left: 30px;
+}
+input[name="email"]{
+    margin-left: 65px;
+
+}
+h5{
+    margin-left: 160px;
+}
+.fa-book-open{
+    font-size: 50px;
+    margin-left: 220px;
+}
+.problem{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    cursor:pointer;
+    margin-left: 30px;
+    width: 437px;
+}
+.problem:focus{
+    outline: none;
+}
