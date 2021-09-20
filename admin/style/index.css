@@ -1,15 +1,25 @@
 body{
-    background:linear-gradient(90deg, #d3dfff,blueviolet);
+    background:linear-gradient(135deg, #ea5c54 0%, #bb6dec 30%);
     font-family: 'Markazi Text', serif;
+}
+.fa-user{
+    color:white;
+}
+.fa-key{
+    color:white;
 }
 .login{
     width: 400px;
-    margin: 200px auto;
-    text-align: center;
     height: 400px;
+    position: relative;
+    text-align: center;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     border:2px solid black;
     background-color:black;
-    opacity: 0.5;
+    opacity: 0.8;
+
 }
 .forms{
     margin-top: 20%;
@@ -22,20 +32,23 @@ body{
     color:white;
     border-bottom: 2px solid #0088ff;
     margin: 10px;
+    text-align: right;
 }
 .filed:focus{
     outline: none;
 }
 .submit{
     margin-top: 20px;
-    color:black;
     font-size:21px;
     border: none;
-    background-color:silver;
-    width: 120px;
-    height: 40px;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 7%;
+    border: 1px solid #0088ff ;
+    font-weight: bolder;
+    color: #15544b;
 }
-
 .submit:hover{
-    background-color: #bbbbec;
+    border:1px solid white;
 }
